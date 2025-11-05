@@ -1,5 +1,6 @@
 import React, {act, useState} from 'react'
 import Hamburger from 'hamburger-react'
+// import heroImage from '../assets/my_hero_image.png'
 
 const Navbar = () => {
 const [isOpen, setOpen] = useState(false);
@@ -16,7 +17,8 @@ const navLinks = [
         
         {/* My Logo */}
         <div className='cursor-pointer'>
-          My Logo Here
+          {/* <img src={heroImage} alt="" /> */}
+          <h1>My Logo Here</h1>
         </div>
 
         {/* Mobile Hamburger Menu Button */}

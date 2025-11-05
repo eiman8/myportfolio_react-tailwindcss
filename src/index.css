@@ -68,3 +68,18 @@ button:focus-visible {
 } */
 
 @import "tailwindcss";
+
+@font-face {
+  font-family: Poppins;
+  src: url("../src/assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto-Regular.ttf");
+}
+
+@theme {
+  --font-poppins-bold: Poppins, "sans-serif";
+  --font-roboto-regular: Roboto, "sans-serif";
+}
